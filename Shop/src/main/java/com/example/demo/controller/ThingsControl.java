@@ -18,7 +18,8 @@ import com.example.demo.service.ShopService;
 public class ThingsControl {
 	@Autowired	
 	ShopService service;
-	@GetMapping("/product/version_1") 
+	@GetMapping("/product/version_1")
+	//this is jeeva
 	public List<Things> getShopDetails() 
 	{
 		return service.getShopDetails();
