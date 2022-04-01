@@ -19,7 +19,7 @@ public class ThingsControl {
 	@Autowired	
 	ShopService service;
 	@GetMapping("/product/version_1")
-	//this is jeeva
+	//this is sakthi
 	public List<Things> getShopDetails() 
 	{
 		return service.getShopDetails();
